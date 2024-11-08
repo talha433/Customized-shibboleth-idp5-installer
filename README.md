@@ -79,39 +79,20 @@ vim /etc/hosts
 
 ---
 
-### `pipx` — Install and Run `Python` Applications in Isolated Environments
+### Installing `Ansible`
+install Ansible run these commands
+
 ```bash
 apt update
 ```
 ```bash
-apt install pipx
+apt install software-properties-common
 ```
-
----
-
-### Installing and upgrading `Ansible` with `pipx`
-On some systems, it may not be possible to install Ansible with pip, due to decisions made by the operating system developers. In such cases, pipx is a widely available alternative.
-
-These instructions will not go over the steps to install pipx; if those instructions are needed, please continue to the pipx installation instructions for more information.
-
-### Installing `Ansible`
-Use pipx in your environment to install the full Ansible package:
-
 ```bash
-pipx install --include-deps ansible
+add-apt-repository --yes --update ppa:ansible/ansible
 ```
-
-You can install the minimal ansible-core package:
-
 ```bash
-pipx install ansible-core
-```
-
-### Upgrading `Ansible`
-To upgrade an existing Ansible installation to the latest released version:
-
-```bash
-pipx upgrade --include-injected ansible
+apt install ansible
 ```
 
 ---
