@@ -2,11 +2,11 @@
 
 ## Overview
 The AAF Shibboleth IdP Installer is designed to automate the install of version 5 for the [Shibboleth IdP](https://shibboleth.atlassian.net/wiki/spaces/IDP5/overview) on a dedicated server with one of the following supported operating systems;
-* Rocky Linux 8 or 9
-* Stream 8 or Stream 9
-* Redhat 8 or 9
-* ORACLE Linux 8 or 9
-* Ubuntu 20.04 (Focal Fossa) or 22.04 (Jammy Jellyfish)
+* Rocky Linux
+* Stream
+* Redhat
+* ORACLE Linux
+* Ubuntu
 
 For a full set of documentation and guidance on upgrading from Shibboleth version 4 please refer to the [AAF IdPv4 Installer Knowledge base](https://support.aaf.edu.au/support/solutions/articles/19000159910-shibboleth-idp-version-5-installer).
 
