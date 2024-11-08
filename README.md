@@ -10,24 +10,6 @@ The AAF Shibboleth IdP Installer is designed to automate the install of version 
 
 For a full set of documentation and guidance on upgrading from Shibboleth version 4 please refer to the [AAF IdPv4 Installer Knowledge base](https://support.aaf.edu.au/support/solutions/articles/19000159910-shibboleth-idp-version-5-installer).
 
-## Status
-This software is actively being developed and maintained. It is ready for use in production environments.
-
-This version now enables the technical connection to eduGAIN, the global federation of federations.
-
-This release is for Shibboleth version 5.1.3 running on Jetty 12.0.12
-
-## License
-Apache License Version 2.0, January 2004
-
-# AAF Rapid IdP
-
-Need a managed, secure and highly available cloud Identity Provider solution?
-
-[Contact the AAF about Rapid IdP today.](https://aaf.edu.au/rapid/)
-
-[<img src="https://aaf.edu.au/images/Rapid-IdP.png"  width="500"/>](https://aaf.edu.au/rapid/)
-
 # Shibboleth IdP Version 5 Installer
 
 ### Actions undertaken during installation
